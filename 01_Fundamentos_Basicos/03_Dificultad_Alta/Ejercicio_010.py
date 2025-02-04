@@ -1,8 +1,8 @@
 
-#Enunciado: "Se solicita al usuario que ingrese un valor número que cambia de tipo 'string' a tipo 'float' y que se guarda en la variable 'n_1'. Luego, se pide al usuario que ingrese un 2do y 3er valor número que cambian de tipo 'string' a tipo 'float' y que se guardan en las variables 'n_2' y 'n_3' respectivamente. Luego se toman las variables 'n_1', 'n_2' y 'n_3', se suman y se divide en entre 3 y se guarda la operación en la variable 'promedio'.  Finalmente se imprime la variable promedio."
+#Enunciado: "Se pide al usuario que ingrese un valor número al cual se cambia su tipo de dato de 'string' a 'entero' para luego ser guardado en la variable 'lado_1'. Luego se pide al usuario que ingrese un valor número al cual se cambia su tipo de dato de 'string' a 'entero' para luego ser guardado en la variable 'lado_2'. Luego se pide al usuario que ingrese un nuevo valor número  al cual se cambia su tipo de dato de 'string' a 'entero' para luego ser guardado en la variable 'altura'. Luego se declara la variable 'formula' que toma la variable 'lado_1' para multiplicarla por la variable 'lado_2' y la variable 'altura'. por último se imprime la variable 'formula' "
 
-n_1 = float(input("Ingresa un número: "))
-n_2 = float(input("Ingresa un segundo número: "))
-n_3 = float(input("Ingresa un tercer número: "))
-promedio = (n_1 + n_2 + n_3) / 3 
-print(promedio)
+lado_1 = int(input("Ingresa un número entero: "))
+lado_2 = int(input("Ingresa un nuevo número entero: "))
+altura = int(input("Ingresa un último número entero: "))
+formula = lado_1 * lado_2 * altura
+print(formula)
