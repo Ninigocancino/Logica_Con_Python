@@ -1,5 +1,5 @@
 
-#Instrucción en lenguaje natural: Declara una variable llamada 'edad' guarda en ella un valor de 25, luego declara una segunda variable llamada 'tiene_licencia' y guarda un booleano 'True'. Verifica si 'edad' es mayor o igual a 18 y si 'tiene_licencia' es True entonces imprime en pantalla el mensaje "Puedes conducir", si la condición no se cumple verifica si 'edad' es mayor o igual a 18 y si no 'tiene_licencia' es True entonces imprime el mensaje 'Necesitas obtener una licencia para conducir'. Pero si ninguna de las condiciones se cumple, entonces imprime el mensaje "No puedes conducir"
+#Instrucción en lenguaje natural: Declara una variable llamada 'edad' guarda en ella un valor de 25, luego declara una segunda variable llamada 'tiene_licencia' y guarda un booleano 'True'. Verifica si 'edad' es mayor o igual a 18 y si 'tiene_licencia' si ambas condiciones son verdaderas, se imprime en la consola el mensaje 'Puedes conducir'. Si no se cumple esa condición,  verifica si el valor de 'edad' es mayor o igual a 18 y si la variable 'tiene_licencia' no es True. Si esta segunda condición es verdadera, se imprime en la consola el mensaje 'Necesitas obtener una licencia para conducir'. Pero si ninguna de las condiciones se cumple, entonces imprime el mensaje "No puedes conducir"
 
 
 edad = 25
